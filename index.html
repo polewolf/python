@@ -47,7 +47,7 @@
         <p>Of <mylink onclick="copy()">klik hier</mylink> om de tekst te kopiëren.</p>
         <script>
             async function copy() {
-                let file = await fetch("cijferberekenen.py")
+                let file = await fetch("python files/cijferberekenen.py")
                 let fileText = await file.text()
                 navigator.clipboard.writeText(fileText)
             }
