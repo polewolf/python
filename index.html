@@ -50,6 +50,7 @@
                 let file = await fetch("python files/cijferberekenen.py")
                 let fileText = await file.text()
                 navigator.clipboard.writeText(fileText)
+                console.log('gekopieerd!')
             }
         </script>
     </div>
